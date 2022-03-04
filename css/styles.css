@@ -1,0 +1,129 @@
+/* Whole */
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header */
+.navbar {
+    background-color: #0677BA;
+    display: flex;
+    align-items: center;
+    padding: 19px 0px 19px 203px;
+}
+
+/* Main */
+.main-page {
+    background-color: #F9F9F8;
+    padding: 80px 0px 110px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Formulario */
+section {
+    background-color: white;
+    border: 1px solid #EBEBEA;
+    border-radius: 2px;
+    width: 21.7em;
+    height: 9.7em;
+    padding: 1.2em 2em 1em 2em;
+}
+
+/* Sign up y Back */
+.title-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-form span {
+    font-size: 1.11em;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: normal;
+}
+
+.title-form a {
+    font-weight: normal;
+    font-size: 12px;
+    color: #9A9FA8;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* Acces Code */
+.txt {
+    margin-bottom: 10px;
+}
+
+.txt input {
+    border: .1em solid #E7E7E7;
+    background-color: #EEEEEE;
+    color: #666;
+    width: 328px;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.txt input::placeholder {
+    font-family: sans-serif;
+    color: #B5AAAE;
+}
+
+.txt input:focus {
+    border: 2px solid #2A66AA;
+    outline: none;
+}
+
+.desc {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #9A9FA9;
+    font-size: .7em;
+}
+
+
+/* Botón Continue */
+.button input {
+    background-color: #5FB8D5;
+    border: 1px solid #4BAECF;
+    font-family: 'Open Sans', sans-serif;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 16px;
+    width: 349px;
+    padding: 9px;
+}
+
+.button input:hover {
+    background-color: #3EA1C1;
+    cursor: pointer;
+}
+
+/* Footer de la página e hipervínculos */
+footer {
+    background-color: #EEEEEE;
+    border: 1px solid #D8D8D8;
+    padding: 37px 0px 0px 202px;
+    font-family: 'Open Sans', sans-serif;
+    color: #556370;
+    height: 10.05em;
+    font-size: 13px;
+}
+
+footer a {
+    color: #556370;
+    text-decoration: none;
+}
+
+footer a:hover {
+    border-bottom: 1px solid #556370;
+}
+
+footer .priv {
+    font-weight: bold;
+}
