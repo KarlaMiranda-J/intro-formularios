@@ -11,7 +11,7 @@ body {
     background-color: #0677BA;
     display: flex;
     align-items: center;
-    padding: 19px 0px 19px 203px;
+    padding: 1.2em 0em 1.2em 12.7em;
 }
 
 /* Main */
@@ -108,7 +108,7 @@ section {
 footer {
     background-color: #EEEEEE;
     border: 1px solid #D8D8D8;
-    padding: 37px 0px 0px 202px;
+    padding: 2.8em 0em 0em 15.5em;
     font-family: 'Open Sans', sans-serif;
     color: #556370;
     height: 10.05em;
